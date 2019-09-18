@@ -1,0 +1,14 @@
+Package: ipccwGEE
+Title: Inverse probability censoring cluster weighted generalized estimating equations for clustered longitudinal data with informative cluster size and informative drop-out 
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Aya",
+           family = "Mitani",
+           role = c("aut", "cre"),
+           email = "amitani@hsph.harvard.edu")
+Description: This package includes two main functions: 1. dropmodel that fits a logistic regression model for the drop-out or missingness model for estimating and computing the inverse probability censoring weights; and 2) ipccwGEE to fit a marginal model with cluster-weights and inverse probability censoring weights for binary outcomes using the method of generalized estimating equations.
+Depends: R (>= 2.10), MASS, stats
+License: What license it uses
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
